@@ -1,0 +1,64 @@
+{"RMOS": {"allRcms": [
+  {"RecyclingMachine": {
+    "totalCouponsLeft": 100,
+    "machineStatus": false,
+    "machineId": 101,
+    "itemPrices": {"Data": {
+      "GLASS": 3,
+      "Aluminium": 4
+    }},
+    "totalWeight": 0,
+    "lastEmptiedTimeList": [],
+    "transactions": [{"RecyclingTransaction": {
+      "transactionType": "MONEY",
+      "validItemTypes": [
+        "GLASS",
+        "Aluminium"
+      ],
+      "isClosed": true,
+      "startTime": 1449632165972,
+      "costCalculation": {"CostCalculation": {"itemList": [
+        {"Item": {
+          "itemType": "GLASS",
+          "itemPrice": "3.0",
+          "itemWeight": "7.0"
+        }},
+        {"Item": {
+          "itemType": "GLASS",
+          "itemPrice": "3.0",
+          "itemWeight": "3.0"
+        }}
+      ]}}
+    }}],
+    "machineLocation": "SCU, Santa Clara",
+    "totalMoneyLeft": 470
+  }},
+  {"RecyclingMachine": {
+    "totalCouponsLeft": 100,
+    "machineStatus": false,
+    "machineId": 102,
+    "itemPrices": {"Data": {
+      "GLASS": 3,
+      "Aluminium": 4
+    }},
+    "totalWeight": 0,
+    "lastEmptiedTimeList": [],
+    "transactions": [],
+    "machineLocation": "SJSU, San Jose",
+    "totalMoneyLeft": 500
+  }},
+  {"RecyclingMachine": {
+    "totalCouponsLeft": 100,
+    "machineStatus": false,
+    "machineId": 103,
+    "itemPrices": {"Data": {
+      "GLASS": 3,
+      "Aluminium": 4
+    }},
+    "totalWeight": 0,
+    "lastEmptiedTimeList": [],
+    "transactions": [],
+    "machineLocation": "SFSU, San Francisco",
+    "totalMoneyLeft": 500
+  }}
+]}}
